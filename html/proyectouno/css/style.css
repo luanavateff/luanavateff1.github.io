@@ -1,0 +1,72 @@
+/* no pude descubrir cómo alinear los botones con el texto porque al hacerlo como lista me alinea todo
+como si estuviesen los bullets también y me queda desalineado. Lo alinee poniendole margin right al ul
+*/
+body{
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    background: #ab47bc;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 95%;
+}
+body h1:nth-child(1){
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 70px;
+}
+h1{ 
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: #212121;
+}
+p{
+    line-height: 15px;
+    text-align: center;
+}
+div{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+}
+.presentacion{
+    background-color: #ce93d8;
+    border-radius: 15px;
+    margin: 0px;
+}
+ul{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 35px;
+}
+.btn{
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    background: white;
+    color: #212121;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    width: 100px;
+
+}
+.btn:hover{
+    background: #ce93d8;
+    color:white
+}
+li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+footer p:nth-child(2){
+    text-transform: uppercase;
+}
