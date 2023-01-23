@@ -19,7 +19,7 @@ a{
     width: 100px;
     display: block;
     margin: 0 auto;
-    border-radius: 95%;
+    border-radius: 50%;
 }
 .iconos{
     width: 20%;
@@ -29,7 +29,8 @@ a{
     margin-bottom: 10px;
 }
 img{
-    width: 20%;
+    width: 18%;
+    margin: 2px;
 }
 body h1:nth-child(1){
     font-family: 'Anton', sans-serif;
@@ -40,10 +41,11 @@ body h1:nth-child(1){
 h1{ 
     font-weight: 700;
     margin-bottom: 0px;
+    margin-top: 10px;
     color: #212121;
 }
 p{
-    line-height: 15px;
+    line-height: 18px;
 }
 div{
     display: inline-block;
@@ -54,6 +56,8 @@ div{
     background-color: #ce93d8;
     border-radius: 15px;
     margin: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 ul{
     margin-top: 30px;
