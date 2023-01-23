@@ -6,9 +6,14 @@ body{
     font-size: 13px;
     background: #ab47bc;
     text-align: center;
+    margin: 0px;
+}
+section{
+    min-height: 70vh;
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 img{
     width: 100px;
@@ -29,7 +34,7 @@ h1{
 }
 p{
     line-height: 15px;
-    text-align: center;
+    
 }
 div{
     display: inline-block;
@@ -45,7 +50,7 @@ ul{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    margin-right: 35px;
+    margin-right: 45px;
 }
 .btn{
     font-family: 'Anton', sans-serif;
@@ -67,6 +72,11 @@ li{
     margin-bottom: 30px;
     list-style-type: none;
 }
-footer p:nth-child(2){
-    text-transform: uppercase;
+footer{
+    background: #ce93d8;
+    text-align: left;
+    height: 200px;
+}
+footer p{
+    padding: 20px;
 }
